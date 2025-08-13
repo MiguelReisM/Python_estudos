@@ -1,4 +1,4 @@
 #Crie um programa que leia um valor em metros e o exiba convertido em centimetros e milimetros
-medida = int(input('Digite a metragem: '))
+medida = float(input('Digite a metragem: '))
 
-print(f'Foram digitados {medida}M, que são o mesmo que {medida * 100}cm e tantos milimetros {medida * 1000 }mm')
+print(f'Foram digitados {medida:.2f}M, que são o mesmo que {medida * 100:.2f}cm e tantos milimetros {medida * 1000 :.2f}mm')
