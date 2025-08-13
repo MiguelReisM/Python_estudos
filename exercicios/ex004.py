@@ -1,6 +1,6 @@
 #Crie um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informacoes possiveis sobre ela
-
 digitacao = input('Digite algo: ')
+
 print()
 print(f'Voce digitou ({digitacao}) e isso é: ')
 print(f'Ele é um(a): {type(digitacao)}')
