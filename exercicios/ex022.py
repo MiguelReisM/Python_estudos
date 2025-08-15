@@ -4,7 +4,7 @@
 # Quatas letras ao todo (sem considerar espacos)
 # Quantas letras tem o primeiro nome.
 
-nome = input('Digite seu nome completo: ')
+nome = str(input('Digite seu nome completo: ')).strip()
 print(f'O seu nome é: {nome}')
 print(f'em maiusculo fica: {nome.upper()}')
 print(f'em minusculo fica: {nome.lower()}')
