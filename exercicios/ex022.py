@@ -9,5 +9,5 @@ print(f'O seu nome é: {nome}')
 print(f'em maiusculo fica: {nome.upper()}')
 print(f'em minusculo fica: {nome.lower()}')
 print(f'ele tem {len(nome.replace(' ',''))} letras')
-print(f'e o primeiro nome tem {len(nome.split()[0])}')
+print(f'e o primeiro nome tem {len(nome.split()[0])} letras')
 
