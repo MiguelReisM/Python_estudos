@@ -2,7 +2,7 @@
 # Quantas vezes aparece a letra "A"
 # Em que posicao ela aparece a primeira vez
 # Em que posicao ela aparece a ultima vez.
-frase = str(input('Digite uma frase: ')).strip().lower()
+frase = str(input('Digite uma frase: ')).strip()
 aparecer = frase.count('A')
 primeira_vez = frase.find('A')
 ultima_vez = frase.rfind('A')
