@@ -1,10 +1,9 @@
 #Crie um programa que faca o computador "pensar" em um numero inteiro entre 0 e 5 e peca para o usuario tentar descobri qual foi o numero escolhido pelo computador.
 # O programa deverá escrever na tela se o usuario acertou ou errou.
-import random
+from random import randint
 
 numero_u = int(input('Digite um numero de 0 a 5: '))
-opcoes = [0,1,2,3,4,5]
-numero_c = random.choice(opcoes)
+numero_c = randint(0,5)
 
 if 0 < numero_u <= 6:
     if numero_u == numero_c:
