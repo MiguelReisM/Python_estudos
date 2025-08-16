@@ -1,0 +1,38 @@
+=-=-=-=-=-=-=-=-=
+ Arquivo com informações sobre como
+usar cores e estilos no Terminal
+digitar: "   \033[ ; ; m   "
+=-=-
+ex:
+texto normal, com letras brancas e fundo vermelho
+\033[0;30;41m
+obs:
+Considera o padrao
+\033[m
+=-=-=-=-=-=-=-=-=
+Style
+0 - None
+1 - Bold
+4 - Underline
+7 - Negative
+=-=-=-=-=-=-=-=-=
+Text
+30 - Branco
+31 - Vermelho
+32 - Verde
+33 - Amarelo
+34 - Azul
+35 - Roxo
+36 - Ciano
+37 - Cinza
+=-=-=-=-=-=-=-=-=
+Back
+40 - Fundo Branco
+41 - Fundo Vermelho
+42 - Fundo Verde
+43 - Fundo Amarelo
+44 - Fundo Azul
+45 - Fundo Roxo
+46 - Fundo Ciano
+47 - Fundo Cinza
+=-=-=-=-=-=-=-=-=
