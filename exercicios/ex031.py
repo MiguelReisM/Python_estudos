@@ -4,9 +4,9 @@ quilometragem = float(input('Digite quantos Km tem o seu percurso de viagem: '))
 if quilometragem > 0:
     if quilometragem <= 200:
         preco = quilometragem * 0.50
-        print(f'O preco da viagem ficou R${preco:.2f}')
     else:
         preco = quilometragem * 0.45
-        print(f'O preco da viagem ficou R${preco:.2f}')
 else:
     print('Digite uma Km valida!')
+print(f'O preco da viagem ficou R${preco:.2f}')
+
