@@ -10,9 +10,9 @@ formou = False
 if a + b > c and a + c > b and b + c > a:
     print('Foi possivel gerar um triangulo com essas retas!')
     formou = True
-    if formou == True and a == b and a == c and b == c:
+    if formou == True and a == b == c:
         print('O seu triangulo é Equilatero')
-    elif formou == True and a != b and a != c and b != c:
+    elif formou == True and a != b != c:
         print('O seu triangulo é Escaleno')
     else:
         print('O seu triangulo é Isosceles')
