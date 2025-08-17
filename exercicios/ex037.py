@@ -11,13 +11,10 @@ opcao = int(input(' 1 - para binario\n 2 - para octal\n 3 - para hexadecimal\nOp
 print('=-' * 20)
 
 if opcao == 1:
-    resposta = bin(numero)
-    print(f'A conversao para binario fica: {resposta}')
+    print(f'A conversao para binario fica: {bin(numero)[2:]}')
 elif opcao == 2:
-    resposta = oct(numero)
-    print(f'A conversao para octal fica: {resposta}')
+    print(f'A conversao para octal fica: {oct(numero)[2:]}')
 elif opcao == 3:
-    resposta = hex(numero)
-    print(f'A conversao para hexadecimal fica: {resposta}')
+    print(f'A conversao para hexadecimal fica: {hex(numero)[2:]}')
 else:
     print('Digite uma opcao valida!')
