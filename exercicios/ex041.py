@@ -8,11 +8,11 @@ categoria = ['Mirim', 'Infantil', 'Junior', 'Master']
 nascimento = int(input('Digite o seu ano de nascimento: '))
 ano = date.today().year
 
-if ano - nascimento < 9:
+if ano - nascimento <= 9:
     print(f'O nadador cadastrado tem {ano - nascimento} anos, ele está na categoria {categoria[0]}')
-elif ano - nascimento < 14:
+elif ano - nascimento <= 14:
     print(f'O nadador cadastrado tem {ano - nascimento} anos, ele está na categoria {categoria[1]}')
-elif ano - nascimento < 19:
+elif ano - nascimento <= 19:
     print(f'O nadador cadastrado tem {ano - nascimento} anos, ele está na categoria {categoria[2]}')
 else:
     print(f'O nadador cadastrado tem {ano - nascimento} anos, ele está na categoria {categoria[3]}')
