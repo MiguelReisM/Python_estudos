@@ -3,6 +3,6 @@ pt = int(input('Digite o primeiro termo dessa PA: '))
 r = int(input('Digite a razao dessa PA: '))
 
 print('\nLogo a seguir estao os 10 priemiros termos dessa PA: ')
-for pa in range(pt, r * 10, r):
+for pa in range(pt, pt + r * 10, r):
     print(pa)
 print('...')
