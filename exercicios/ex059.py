@@ -5,29 +5,36 @@
 # 4 novos numeros
 # 5 sair do programa
 # Seu programa devera realizar a oprecao solicitada em cada caso.
-opcao = 0
-num1 = num2 = 0
-maior = menor = 0
+while True:
+    num1 = int(input('\nDigite o primeiro número: '))
+    num2 = int(input('Digite o segundo número: '))
 
-while opcao != 5:
-    num1 = int(input('Digite o primeiro numero: '))
-    num2 = int(input('Digite o segundo numero: '))
-    opcao = 0
-    while opcao != 4 and opcao != 5:
-        opcao = int(input('\nDigite a opcao desejada:\n[1] Somar\n[2] Multiplicar\n[3] Maior\n[4] Novos numeros\n[5] Sair do programa\n Opcao desejada: '))
+    while True:
+        print("\n===== MENU =====")
+        print("[1] Somar")
+        print("[2] Multiplicar")
+        print("[3] Maior")
+        print("[4] Novos números")
+        print("[5] Sair do programa")
+
+        opcao = int(input("Opção desejada: "))
+
         if opcao == 1:
             print(f'\nA soma de {num1} + {num2} = {num1 + num2}')
-        if opcao == 2:
-            print(f'\nA multiplicacao de {num1} x {num2} = {num1 * num2}')
-        if opcao == 3:
+        elif opcao == 2:
+            print(f'\nA multiplicação de {num1} x {num2} = {num1 * num2}')
+        elif opcao == 3:
             if num1 > num2:
-                maior = num1
-                menor = num2
-                print(f'\nO maior valor é {maior} e o menor {menor}')
-            elif num1 == num2:
-                print(f'\nOs numeros {num1} e {num2} sao iguais')
+                print(f'\nO maior valor é {num1} e o menor é {num2}')
+            elif num2 > num1:
+                print(f'\nO maior valor é {num2} e o menor é {num1}')
             else:
-                maior = num2
-                menor = num1
-                print(f'\nO maior valor é {maior} e o menor {menor}')
-print('Encerrado!')
+                print(f'\nOs números {num1} e {num2} são iguais')
+        elif opcao == 4:
+            # volta para digitar novos números
+            break
+        elif opcao == 5:
+            print('\nPrograma encerrado!')
+            exit()
+        else:
+            print('\nOpção inválida, tente novamente.')
