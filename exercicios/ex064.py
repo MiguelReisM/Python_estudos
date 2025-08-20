@@ -2,7 +2,7 @@
 num = cont = soma = 0
 
 while num != 999:
-    num = int(input('Digite um numero inteiro: '))
+    num = int(input('Digite um numero inteiro [digite 999 caso queira parar]: '))
     cont += 1
     soma += num
 print(f'Voce digitou {cont-1} numero(os) e a somatoria deles é {soma-999}')
