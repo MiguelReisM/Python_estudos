@@ -1,6 +1,6 @@
 #Crie um programa que leia um numero n inteiro qualquer e mostre na tela os n primeiros elementos de uma sequencia de fibonacci usando while
 # 0 - 1 - 1 - 2 - 3 - 5 - 8
-num1 = num3 = num4 = 0
+num1 = num3 = 0
 num2 = cont = 1
 vezes = int(input('Digite quantos elementos da sequenci de fibonacci voce quer ver: '))
 
