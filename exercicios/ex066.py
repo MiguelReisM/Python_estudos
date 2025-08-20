@@ -2,7 +2,7 @@
 somatoria = cont = 0
 
 while True:
-    num = int(input('Digite um numero inteiro: '))
+    num = int(input('Digite um numero inteiro, caso deseje parar digite 999: '))
     if num == 999:
         break
     somatoria += num
