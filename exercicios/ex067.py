@@ -7,6 +7,6 @@ while True:
     if num < 0:
         print('Programa encerrado!')
         break
-    while cont <= 10:  
+    while cont <= 10:
         print(f'{num} X {cont} = {num * cont}')
         cont += 1
