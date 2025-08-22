@@ -7,6 +7,6 @@ numeros = []
 for n in range(5):
     numeros.append(randint(0,10))
 
-print(f'Números gerados: {numeros}')
+print(f'Números gerados: {sorted(numeros)}')
 print(f'Maior número: {max(numeros)}')
 print(f'Menor número: {min(numeros)}')
