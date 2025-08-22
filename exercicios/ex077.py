@@ -15,6 +15,8 @@ palavras = (
     'futuro'
 )
 
-for c, p in enumerate(palavras):
-    if palavras(p) in 'aeiou':
-        print(palavras)
+for palavra in palavras:
+    print(f'\nNa palavra {palavra.upper()} temos: ', end='')
+    for letra in palavra:
+        if letra.lower() in 'aeiou':
+            print(letra, end=' ')
