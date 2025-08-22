@@ -4,7 +4,7 @@ print('=-=' * 15)
 print(f'{"Listagem de preços":^45}')
 print('=-=' * 15)
 
-lista = (
+tupla = (
     'Lápis', 1.75,
     'Borracha', 2.00,
     'Caderno', 15.90,
@@ -16,7 +16,7 @@ lista = (
     'Livro', 34.90
 )
 
-for c1, i in enumerate(lista):
+for c1, i in enumerate(tupla):
     if c1 % 2 == 0:
-        print(f'{lista[c1]:.<34} R${lista[c1+1]:>7.2f}')
+        print(f'{tupla[c1]:.<34} R${tupla[c1+1]:>7.2f}')
 print('=-=' * 15)
