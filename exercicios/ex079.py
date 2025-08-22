@@ -30,4 +30,4 @@ while True:
     contador += 1
 
 print('=-' * 20)
-print(lista_numerica)
+print(sorted(lista_numerica))
