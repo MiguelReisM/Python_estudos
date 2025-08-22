@@ -5,7 +5,7 @@ from random import randint
 numeros = []
 
 for n in range(5):
-    lista_n = numeros.append(randint(0,10))
+    numeros.append(randint(0,10))
 
 print(f'Números gerados: {numeros}')
 print(f'Maior número: {max(numeros)}')
