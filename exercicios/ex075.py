@@ -4,12 +4,32 @@
 # quais foram os numeros pares
 lista_num = []
 lista_par = []
-for c, n in enumerate(range(4)):
-    num = int(input(f'Digite o {c+1} valor: '))
-    if num % 2 == 0:
-        lista_par.append(num)
-    lista_num.append(num)
-print(f'Aqui esta a sua tupla: {lista_num}')
-print(f'O valor 9 apreceu {lista_num.count(9)} vezes')
-print(f'O valor 3 apreceu primeiro na {lista_num.index(3+1)} posicaos')
-print(f'Os valores pares foram {lista_par}')
+pares = 0
+
+for n in range(4):
+    numeros = int(input(f'Digite seu numero o {n+1} numero: '))
+    lista_num.append(numeros)
+    if numeros % 2 == 0:
+        pares += 1
+        lista_par.append(numeros)
+
+print(lista_num)
+
+if lista_num.count(9) != 0:
+    print(f'- O numero 9 aparece {lista_num.count(9)} vez(es)')
+else:
+    print('- O numero 9 nao aparece')
+
+if lista_num.count(3) != 0 and lista_num.count(3) >= 2:
+    print(f'- O numero 3 aparece primeiro na {lista_num.index(3) + 1} posicao')
+elif lista_num.count(3) != 0 and lista_num.count(3) == 1:
+    print(f'- O numero 3 apareceu na {lista_num.index(3) + 1} posicao')
+else:
+    print('- O numero 3 nao aprece')
+
+if pares >= 1:
+    print(f'- Esse(es) foram os numeros pares: {lista_par}')
+else:
+    print('- Nao temos numeros pares')
+
+print()
