@@ -16,7 +16,6 @@ lista = (
     'Livro', 34.90
 )
 
-c2 = 0
 for c1, i in enumerate(lista):
     if c1 % 2 == 0:
         print(f'{lista[c1]:.<34} R${lista[c1+1]:>7.2f}')
