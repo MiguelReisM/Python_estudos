@@ -5,7 +5,7 @@
 lista_numerica = []
 
 while True:
-    lista_numerica.append = int(input('Digite um numero: '))
+    lista_numerica.append(int(input('Digite um numero: ')))
 
     while True:
         opcao = ''
