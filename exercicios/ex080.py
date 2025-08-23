@@ -7,9 +7,6 @@ for n in range(5):
     if n == 0 or numero > lista_num[-1]:
         lista_num.append(numero)
         print(f'O número {numero} foi adicionado ao final da lista!')
-    elif numero < lista_num[0]:
-        lista_num.insert(0, numero)
-        print(f'O número {numero} foi adicionado no início da lista!')
     else:
         posicao = 0
         while posicao < len(lista_num):
