@@ -1,0 +1,2 @@
+#Crie um programa que leie o nome, ano de nascimento e carteira de trabalho e cadastre-os (com idade) em um dicionario se por acaso a CTPS,
+# for diferente de ZERO. o dicionario recebra tambem o ano de contratacao e o salrio. Calcule e acrescente, alem da idade, com quantos anos a pessoa vai se aposentar (=35 anos de contratacao)
