@@ -3,12 +3,9 @@
 # A lista de valores ordenado de forma decrescente
 # Se o valor 5 foi digitado e esta ou nao na lista
 lista_numerica = []
-c = 0
 
 while True:
-    numero = int(input('Digite um numero: '))
-    lista_numerica.append(numero)
-    c += 1
+    lista_numerica.append = int(input('Digite um numero: '))
 
     while True:
         opcao = ''
@@ -19,8 +16,9 @@ while True:
         else: print('Digite uma opcao valida')
     if opcao == 'n': break
 
-print(f'\nForam inseridos {c} numeros na lista: {sorted(lista_numerica)}')
+print(f'\nForam inseridos {len(lista_numerica)} numeros na lista: {sorted(lista_numerica)}')
 print(f'A lista em ordem decrescente fica: {sorted(lista_numerica, reverse= True)}')
+
 if lista_numerica.count(5) > 0:
     print('O numero 5 esta na lista!')
 else:
