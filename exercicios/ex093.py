@@ -17,4 +17,7 @@ for p in range(jogador['partidas']):
 jogador['gols'] = gol_partida[:]
 jogador['total'] = somatoria
 
-print(jogador)
+print(f'\nO jogador {jogador['nome']}, jogou {jogador['partidas']} partidas')
+for c in range(jogador['partidas']):
+    print(f' => Na partida {c}, fez: {gol_partida[c]} gol(s)')
+print(f'Foi um total de {jogador['total']} gol(s)')
