@@ -2,18 +2,13 @@
 # for diferente de ZERO. o dicionario recebra tambem o ano de contratacao e o salrio. Calcule e acrescente, alem da idade, com quantos anos a pessoa vai se aposentar (=35 anos de contratacao)
 from datetime import date
 
-pessoas = {'nome' : 'Ana',
-           'idade' : 0,
-           'ctps' : 0,
-           'ano_contrat' : 0,
-           'salario' : 0.00,
-           'aposentadoria' : 0
-            }
+pessoas = {}
 
 pessoas['nome'] = input('Digite nome: ').strip().title()
 ano_nasc = int(input('Digite o ano que nasceu: '))
 pessoas['idade'] = (date.today().year - ano_nasc)
 pessoas['ctps'] = int(input('Carteira de trabalho (0 nao tem): '))
+
 if pessoas['ctps'] != 0:
     pessoas['ano_contrat'] = int(input('Ano contratacao: '))
     pessoas['salario'] = float(input('Digite o salario: R$'))
@@ -22,6 +17,7 @@ if pessoas['ctps'] != 0:
 print(f'\nNome tem o valor: {pessoas["nome"]}')
 print(f'Idade tem o valor: {pessoas["idade"]} anos')
 print(f'CTPS tem o valor: {pessoas["ctps"]}')
+
 if pessoas['ctps'] != 0:
     print(f'Ano contratacao tem o valor: {pessoas["ano_contrat"]}')
     print(f'Salario tem o valor: R${pessoas["salario"]:.2f}')
