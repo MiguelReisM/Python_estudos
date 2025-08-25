@@ -1,4 +1,5 @@
-# 100 Exercícios de Python – Do Básico ao Avançado        Em criação... 🚧🛠️
+# 100 Exercícios de Python – Do Básico ao Avançado.        
+Em criação... 🚧🛠️
 
 Este repositório documenta minha jornada resolvendo **100 exercícios em Python**, inspirados nas videoaulas do **Curso em Vídeo**.  
 O objetivo é evoluir gradualmente do básico até conceitos mais avançados, reforçando lógica de programação e boas práticas.
