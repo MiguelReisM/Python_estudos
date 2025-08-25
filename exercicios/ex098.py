@@ -4,13 +4,21 @@
 # de 10 ate 0 de 2 em 2
 # uma contagem personalizada
 def contador(inicio, fim, passo):
-    if inicio < fim:
+    if inicio < fim and passo > 0 or inicio > fim and passo < 0:
         print(f'A contagem de {inicio} até {fim} de {passo} em {passo} é: ')
         for c in range(inicio, fim + 1, passo):
             print(f'{c}', end=' ')
-    else:
+    elif inicio > fim and passo > 0 or inicio < fim and passo < 0:
         print(f'A contagem de {inicio} até {fim} de {passo} em {passo} é: ')
         for c in range(inicio, fim - 1, - (passo)):
+            print(c, end=' ')
+    elif inicio < fim and passo == 0:
+        print(f'A contagem de {inicio} até {fim} de {passo} em {passo} nao existe, alterando para 1 em 1: ')
+        for c in range(inicio, fim + 1, 1):
+            print(c, end=' ')
+    else:
+        print(f'A contagem de {inicio} até {fim} de {passo} em {passo} nao existe, alterando para 1 em 1: ')
+        for c in range(inicio, fim - 1, - 1):
             print(c, end=' ')
     print(f'\n{"-" * 40}')
 
