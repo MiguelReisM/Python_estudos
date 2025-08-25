@@ -13,6 +13,11 @@ idade_g = 0
 while True:
     pessoa['nome'] = input('Nome: ').strip().title()
     pessoa['sexo'] = input('Sexo (M/F): ').strip().upper()
+
+    while not sexo or sexo[0] not in 'MF':
+        sexo = input('Sexo inválido. Digite M ou F: ').strip().upper()
+    pessoa['sexo'] = sexo[0]
+
     pessoa['idade'] = int(input('Idade: '))
     idade_g += pessoa['idade']
 
