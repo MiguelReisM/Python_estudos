@@ -1,5 +1,4 @@
-#Crie um modulo chamado moeda.py que tenha funcoes incorporadas, aumentar, diminuir, metade, dobro.
-# Faca tamebm um programa que importe esse modulo e usa algumas dessas funcoes
+#Modifique as funcoes que foram criadas no desafio 107 para que elas aceitem um parametro a mais, informando se o valor vai ser formatado pela funcao moeda(), desevolvida no desafio 108
 from modulos_pacotes.moeda import moeda
 
 preco = float(input('Digite o preco: R$ '))
