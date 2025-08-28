@@ -1,0 +1,2 @@
+#Crie um mini sistema que utilize o interactive Help do Python. o Usuario vai digitar o comando e o manual vai aparecer. Quando o usuario digitar a apalvra 'FIM' o programa se encerrará
+# OBS use cores
