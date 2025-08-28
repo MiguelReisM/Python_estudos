@@ -5,21 +5,20 @@
 # A media da turma
 # A situacao (opcional)
 #Adicione tambem docstrings da funcao
-def notas(n1, n2, n3, n4, sit=False):
+def notas(*n, sit=False):
     """
-    -> Função para analisar notas de alunos
-    :param n1, n2, n3, n4: notas dos alunos
-    :param sit: valor opcional, indica se deve ou não mostrar a situação
-    :return: dicionário com várias informações
+    -> Função para analisar notas de alunos.
+    :param n: uma ou mais notas dos alunos (aceita várias).
+    :param sit: valor opcional, indica se deve ou não mostrar a situação.
+    :return: dicionário com várias informações sobre as notas.
     """
-    valores = [n1, n2, n3, n4]
-    alunos = {'Total' : len(valores),
-              'Maior nota' : max(valores),
-              'Menor nota' : min(valores),
-              'Media da turma' : sum(valores)/len(valores),}
+    alunos = {'Total' : len(n),
+              'Maior nota' : max(n),
+              'Menor nota' : min(n),
+              'Media da turma' : sum(n)/len(n),}
 
     if sit:
-        if sum(valores)/len(valores) >= 6:
+        if sum(n)/len(n) >= 6:
             alunos['Situacao'] = 'Media Boa'
         else:
             alunos['Situacao'] = 'Media Ruim'
