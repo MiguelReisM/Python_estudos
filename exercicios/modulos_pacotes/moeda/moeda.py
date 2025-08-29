@@ -1,23 +1,22 @@
-def aumentar(n, taxa=10):
-    # Aumenta o valor em X%
-    return n + (n * taxa / 100)
+def aumentar(n):
+    #Aumentado o valor em 10%
+    n += n * 0.10
+    return n
 
 
-def diminuir(n, taxa=13):
-    # Diminui o valor em X%
-    return n - (n * taxa / 100)
+def diminuir(n):
+    #Diminuindo o valor em 13%
+    n -= n * 0.13
+    return n
 
 
 def dobro(n):
-    # Dobra o valor
-    return n * 2
+    #Dobra o valor
+    n *= 2
+    return n
 
 
 def metade(n):
-    # Metade do valor
-    return n / 2
-
-
-def moeda(n, simbolo="R$"):
-    # Formata o valor em moeda brasileira
-    return f'{simbolo}{n:.2f}'.replace('.', ',')
+    #Metade do valor
+    n /= 2
+    return n
