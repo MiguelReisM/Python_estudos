@@ -1,4 +1,5 @@
 # 🐍 Python Estudos — 100+ Exercícios
+> This repository contains over 100 Python exercises I solved while studying the **Curso em Vídeo - Python 3** (Mundo 1, 2 and 3). All solutions, comments and descriptions are in Portuguese.
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
 ![Status](https://img.shields.io/badge/Progresso-100%25-success)
