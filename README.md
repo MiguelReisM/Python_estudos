@@ -1,9 +1,9 @@
 # 🐍 Python Estudos — 100+ Exercícios
-> This repository contains over 100 Python exercises I solved while studying the **Curso em Vídeo - Python 3** (Mundo 1, 2 and 3). All solutions, comments and descriptions are in Portuguese.
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
 ![Status](https://img.shields.io/badge/Progresso-100%25-success)
 ![License](https://img.shields.io/badge/license-MIT-blue)
+> This repository contains over 100 Python exercises I solved while studying the **Curso em Vídeo - Python 3** (Mundo 1, 2 and 3). All solutions, comments and descriptions are in Portuguese.
 
 Repositório criado para documentar minha evolução em **Python**, resolvendo todos os exercícios propostos nos **3 mundos** do curso [Curso em Vídeo — Python 3](https://www.cursoemvideo.com/curso/python-3-mundo-1/) do professor **Gustavo Guanabara**.  
 Aqui organizei minhas soluções dentro da pasta `exercicios/`, refiz alguns exercícios de formas diferentes e adicionei desafios extras, sempre com o objetivo de consolidar a lógica de programação e criar uma base sólida para **Data Science e áreas de tecnologia**.  
