@@ -43,6 +43,6 @@ cd Python_estudos
 ```
 ---
 
-👨‍💻 Autor
+## 👨‍💻 Autor
 Miguel Reis Milan Lopes
 - LinkedIn https://www.linkedin.com/in/miguel-reis-10110b199/
